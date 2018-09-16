@@ -1,0 +1,19 @@
+.navbar-default .navbar-header a {
+  color: #3498db;
+}
+
+.navbar-default .navbar-collapse .navbar-nav a {
+  color: #3498db;
+}
+
+
+@media (min-width: 768px)
+.navbar-header {
+    float: left;
+}
+
+@media screen and (max-width: 1200px)
+.navbar-header {
+    float: none;
+    min-height: inherit;
+}
