@@ -5,43 +5,83 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="bootstrap/bootstrap/dist/css/bootstrap.min.css">
+
+
   <title>Portfolio</title>
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" href="bootstrap/bootstrap/dist/css/bootstrap.min.css">
   <script src="bootstrap/bootstrap/dist/js/bootstrap.min.js"></script>
 
-  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
   <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
-
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+  <div class="container-fluid">
+    <div class="row">
+      <nav class="navbar navbar-default navbar-fixed-top" id="navbar main">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-        <a class="navbar-brand" href="#">Name Here</a>
-      </div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav navbar-right">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">Page 2</a></li>
-          <li><a href="#">Page 3</a></li>
-        </ul>
-      </div>
+            <a class="navbar-brand" href="#home">Moheb Zidan</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#">Teaching</a></li>
+              <li><a href="#">Research</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </div>
-  </nav>
+    <div class="row">
 
-  <section>
-    <div class="container">
-      fjhjfgfjfgj
+      <section class="home-section" id="home">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-md-4">
+              <div id="profile">
+                <div class="profileImg"></div>
+                <div class="profileName" id="home">
+                  <h1>Moheb Zidan</h1>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-8">
+              <h1>About Me</h1>
+              <h3>I am a PhD candidate in Economics at the University of Wisconsin - Madison</h3>
+              <div class="row">
+                <div class="col-sm-5">
+                  <h1>Interests</h1>
+                  <ul>
+                    <li>Macroeconomics</li>
+                    <li>Economic Growth</li>
+                    <li>Inequality</li>
+                  </ul>
+                </div>
+                <div class="col-sm-7">
+                  <h1>Contact</h1>
+                  <ul>
+                    <li>7226 Sewell Social Sciences Building</li>
+                    <li>1180 Observatory Drive</li>
+                    <li>Madison, WI, 53706</li>
+                    <li><i class="fas fa-envelope"></i> zidan.at.wisc.edu</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
     </div>
-  </section>
+  </div>
 </body>
 
 </html>
